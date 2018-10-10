@@ -48,23 +48,3 @@ submit.on("click", function() {
   }
 });
 	
-
-  // // BONUS: Calculate summary statistics for the age field of the filtered data
-
-  // // First, create an array with just the age values
-  // var ages = filteredData.map(person => person.age);
-
-  // // Next, use math.js to calculate the mean, median, mode, var, and std of the ages
-  // var mean = math.mean(ages);
-  // var median = math.median(ages);
-  // var mode = math.mode(ages);
-  // var variance = math.var(ages);
-  // var standardDeviation = math.std(ages);
-
-  // Finally, add the summary stats to the `ul` tag
-//   d3.select("tbody")
-//     .append("td").text(`Mean: ${mean}`)
-//     .append("td").text(`Median: ${median}`)
-//     .append("td").text(`Mode: ${mode}`)
-//     .append("td").text(`Variance: ${variance}`)
-//     .append("td").text(`Standard Deviation: ${standardDeviation}`);
